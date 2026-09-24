@@ -1,0 +1,87 @@
+Q1.A | 24 - 12 - 6 - 3 - 1
+Q1.B | 5 vezes
+Q1.C | b)
+
+
+Q2.A | [9, 2, 7, 1]
+Q2.B | [8, 3, 6, 4]
+Q2.C | [9, 2]
+Q2.D | [7, 1]
+Q2.E | [8, 3]
+Q2.F | [6, 4]
+Q2.G | a) F b) V c) V d) F
+
+
+Q3.A | [2,9]
+Q3.B | [1,7]
+Q3.C | [1,2,7,9]
+Q3.D | C
+Q3.E | B
+Q3.F | A
+Q3.justi:
+A descida divide o vetor pela metade até restar um elemento.
+O retorno acontece ao dar o merge e ordenar as metades.
+
+Q4.A | Compara 3 x 5; Copia 3; i=1; j=0; Resultado=[3]
+Q4.B | Compara 8 x 5; Copia 5; i=1; j=1; Resultado=[3, 5]
+Q4.C | Compara 8 x 7; Copia 7; i=1; j=2; Resultado=[3, 5, 7]
+Q4.D | A lista da Direita
+Q4.E | elemento 8
+Q4.F | [3, 5, 7, 8]
+
+
+Q5.A | 8 X 5 => Copia 5
+Q5.B | 8 X 7 => Copia 7
+Q5.C | A lista da Direita 
+Q5.D | [8, 3]
+Q5.E | [5,7,8,3]
+Q5.F | b) as duas listas já estão ordenadas
+Q5.justi:
+O resultado gerado não está ordenado.
+Comprovando que a função funciona corretamente se as listas já estiverem ordenadas.
+
+
+Q6.A | Número 4
+Q6.B | [2,1,3]
+Q6.C | [4]
+Q6.D | [9, 7, 8, 6]
+Q6.E | 3
+Q6.F | 4
+Q6.G | b)
+
+
+Q7.A | [9,7,8,6]
+Q7.B | 6
+Q7.C | []
+Q7.D | [6]
+Q7.E | [9, 7, 8]
+Q7.F | 4 => 3
+Q7.G | b)
+Q7.justi:
+A lista maiores tem 3 elementos e a P1 tinha 4.
+A redução do problema não ocorreu pela metade, provando que o tamanho dos subproblemas depende exclusivamente do pivô escolhido.
+
+
+Q8.A | [2, 1, 3, 6, 4]
+Q8.B | [7]
+Q8.C | [9,8]
+Q8.D | 3
+Q8.E | 1
+Q8.F | a)
+Q8.justi:
+Não.
+O pivô 4 gerou partições mais equilibradas do que o pivô 7 sugerido pela IA
+
+
+Q9.A | 16
+Q9.B | [2, 4, 6, 8, 10, 12, 14]
+Q9.C | []
+Q9.D | b)
+Q9.E | [2, 4, 6, 8]
+Q9.F | [10]
+Q9.G | [12, 14, 16]
+Q9.H | b)
+Q9.justi:
+A Estratégia B produziu partições mais equilibradas,
+favorecendo uma recursão em árvore,
+ao contrário do extremo desequilíbrio gerado pela Estratégia A.
